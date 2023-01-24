@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" > 
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="https://kit.fontawesome.com/58c0b7725a.js" crossorigin="anonymous"></script>
+    </head>
+
+
+<body class="principal">
+    
+
+
+<!--menu desplegable-->
+    <section>
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">contactanos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">miyagi_sushi</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">miyagi_sushi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../page/menu.html">menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../page/contactanos.html">contacto</a>
+                            </li>
+
+                        </ul>
+    </section>
+
+<main class="formulario-fondo">
+
+    <section >
+        <h1>contactanos</h1>
+    </section>
+    <form>
+        <fieldset class="formulario">
+ 
+            <div>
+                <label for="nombre">nombre</label>
+                <input type="text" name="nombre">
+            </div>
+
+            <div>
+                <label for="email">email</label>
+                <input type="email" name="email">
+            </div>
+
+            <div>
+                <label for="password">contrasena</label>
+                <input type="password" name="password">
+            </div>
+
+            <div>
+                <label for="radio">seleciona tu sexo:</label>
+                <label for="sexo">hombre</label>
+                <input type="radio" name="sexo" value="hombre">
+                <label for="sexo">mujer</label>
+                <input type="radio" name="sexo" value="mujer">
+                <label for="sexo">no expecificar</label>
+                <input type="radio" name="sexo" value="no expecificar">
+            </div>
+
+            <div>
+                <label for="estado">selecciona tu estado civil</label>
+                <select name="estado" id="">
+                    <option value="soltero/a">solteo/a</option>
+                    <option value="casado/a">casado/a</option>
+                    <option value="viudo/a">viudo/a</option>
+            </div>
+            <div>
+                <label for="mensaje">deja tu mensaje</label>
+                <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+            </div>
+            <input type="submit" value="enviar formulario">
+            <input type="reset" value="resetear formulario">
+
+
+
+
+            </select>
+        </fieldset>
+
+    </form>
+    <h2>VISITANOS</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26272.823521782262!2d-58.57904156275534!3d-34.60156010369892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb78d78d49c13%3A0xd996135412e82b6f!2sAvenida%20La%20Plata%20%26%20Juan%20Bautista%20Anchordoqui%2C%20Santos%20Lugares%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1674590405258!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!--pie de pagina-->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../imagenes/fondo3.jfif" alt="" class="miyagi">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h3> SOBRE NOSOTROS </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti repellat illum, ipsum iste tenetur nesciunt dignissimos, veniam corrupti eveniet quasi laudantium nostrum vel inventore. Minus odit voluptates alias officiis quas.</p>
+            </div>
+            <div class="box">
+            <h4> SIGUENOS </h4>
+            <div class="red-social">
+                
+                <a href="" class="fa fa-facebook"></a>
+                <a href="" class="fa fa-instagram"></a>
+                <a href="" class="fa fa-whatsapp"></a>               
+            
+            </div>
+        </div>
+        </div>
+        <div class="grupo-2"></div>
+
+
+
+
+    </main>
+
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+
+
+* {
+    margin: 0,5px;
+    padding: 0,5px;
+}
+
+
+h1,h2 {
+    color: white;
+    font-size: 130px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+   
+}
+
+h3 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+h4 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h5 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+
+
+
+
+p {
+    color: rgb(249, 245, 245);
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+
+
+.principal {
+background-image: url(../imagenes/fondojav1.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+
+.fondo1 {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.carrucel{
+    
+    width: 500px; 
+    display: block; 
+    margin: auto;  
+    
+    }
+
+
+
+
+
+.fondo {
+    background-color: black;
+
+}
+
+.formulario {
+    color:white;
+    font-size: 20px;
+
+
+}
+.formulario-fondo{
+   background-color: black;
+}
+
+.pie-pagina {
+    background-color: black;
+
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    
+    
+
+}
+.miyagi{
+    width: 400px;
+    height: 400px;
+}
+
+.red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    color: white;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:800px){
+    
+.pie-pagina {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+
+
+.menu {
+    margin: 10px;
+    box-shadow: 0 4px 8px lightblue, 0 6px 20px rgba(0, 0, 0, 0.19);
+
+}
+
+/*menu*/
+.contenido {
+    max-width: 1100px;
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+}
+
+.mostrador {
+    width: 100%;
+    transition: .5s ease;
+
+}
+
+.mostrador .fila {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+
+.mostrador .fila .item {
+    max-width: 250px;
+    padding: 20px;
+    height: 500px;
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+
+
+}
+
+.mostrador .fila .item:hover {
+    background-color: rgb(119, 120, 120);
+}
+
+.mostrador .fila .item img {
+    width: 100%;
+    margin: 20px 0;
+
+}
+
+.mostrador .fila .item .descripcion {
+    color:black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.mostrador .fila .item .precio {
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    font-size: 20px;
+}
