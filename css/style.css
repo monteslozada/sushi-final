@@ -4,22 +4,23 @@
 
 
 * {
-    margin: 0,5px;
-    padding: 0,5px;
+    margin: 0;
+    padding: 0,
 }
 
 
-h1,h2 {
+h1,
+h2 {
     color: white;
     font-size: 130px;
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
-   
+
 }
 
 h3 {
     color: white;
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
 
@@ -30,10 +31,19 @@ h4 {
     font-size: 50px;
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
+
 }
 
 h5 {
-    color: black;
+    color: rgb(5, 5, 5);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+h6 {
+    color: rgb(248, 244, 244);
     font-size: 50px;
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
@@ -43,10 +53,9 @@ h5 {
 
 
 
-
 p {
-    color: rgb(249, 245, 245);
-    font-size: 20px;
+    color: white;
+    font-size: 30px;
     text-align: center;
 
 }
@@ -55,53 +64,85 @@ p {
 
 
 .principal {
-background-image: url(../imagenes/fondojav1.jpg);
-    background-color: black;
+    background-image: url(../imagenes/imagendefondo1.jpg);
+
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    
+    margin-top: 50px;
+
+
 
 }
 
-.fondo1 {
-    
-    background-position: center;
+.carrucel {
+
+    width: 500px;
+    display: block;
+    margin: auto;
+
+}
+
+.contenedor {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.img_con {
+    width: 500px;
+
+}
+
+.img_con2 {
+    width: 500px;
+}
+
+.texto-contenedor {
+    padding-left: 25px;
+
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+    margin-top: 100px;
+
+
+}
+
+.txt-contenedor2 {
+    padding-right: 25px;
+}
+
+
+
+.fondo_menu {
+    background-image: url(../imagenes/galaxia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-attachment: fixed;
 }
 
-.carrucel{
-    
-    width: 500px; 
-    display: block; 
-    margin: auto;  
-    
-    }
 
-
-
-
-
-.fondo {
-    background-color: black;
-
-}
 
 .formulario {
-    color:white;
+    color: white;
     font-size: 20px;
 
 
 }
-.formulario-fondo{
-   background-color: black;
-}
 
+/*footer*/
 .pie-pagina {
-    background-color: black;
+    background-color: rgb(121, 113, 113);
 
 }
 
@@ -109,41 +150,29 @@ background-image: url(../imagenes/fondojav1.jpg);
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     padding: 45px 0px;
-    
-    
-
 }
-.miyagi{
-    width: 400px;
-    height: 400px;
+
+.miyagi {
+    width: 300px;
+    height: 300px;
 }
 
 .red-social a {
     display: inline-block;
     text-decoration: none;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    color: white;
-    margin-right: 10px;
-    background-color: #0d2033;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: rgb(8, 8, 8);
+    margin-right: 70px;
+    background-color: #f8fafc;
     text-align: center;
-}
-
-
-
-@media screen and (max-width:800px){
-    
-.pie-pagina {
-        width: 90%;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 30px;
-        padding: 35px 0px;
-    }
+    margin-top: 50px;
+    margin-left: 60px;
 }
 
 
@@ -155,6 +184,10 @@ background-image: url(../imagenes/fondojav1.jpg);
 }
 
 /*menu*/
+
+
+
+
 .contenido {
     max-width: 1100px;
     width: 100%;
@@ -189,7 +222,7 @@ background-image: url(../imagenes/fondojav1.jpg);
 }
 
 .mostrador .fila .item:hover {
-    background-color: rgb(119, 120, 120);
+    background-color: rgb(58, 61, 61);
 }
 
 .mostrador .fila .item img {
@@ -199,13 +232,165 @@ background-image: url(../imagenes/fondojav1.jpg);
 }
 
 .mostrador .fila .item .descripcion {
-    color:black;
+    color: rgb(243, 240, 240);
     font-weight: bold;
     font-size: 18px;
 }
 
 .mostrador .fila .item .precio {
-    color: rgb(8, 8, 8);
+    color: rgb(245, 241, 241);
     font-weight: bold;
     font-size: 20px;
+}
+
+
+
+@media only screen and (min-width:900px) and (max-width:1050px) {
+
+    h1 {
+        font-size: 130px;
+    }
+
+    h2 {
+        font-size: 130px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .miyagi {
+        width: 200px;
+        height: 200px;
+    }
+
+    .red-social a {
+        width: 50px;
+        height: 50px;
+        line-height: 60px;
+        margin-right: 40px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+
+    .contenedor2 {
+        font-size: 10px;
+    }
+}
+
+
+
+@media only screen and (min-width:600px) and (max-width:899px) {
+
+
+    h1,
+    h2 {
+        font-size: 90px;
+    }
+
+    .carrucel {
+        width: 400px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .img_con {
+        width: 250px;
+    }
+
+    .img-con2 {
+        width: 250px;
+    }
+
+    .miyagi {
+        width: 200px;
+        height: 200px;
+    }
+
+    .red-social a {
+
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 40px;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    h6 {
+        font-size: 25px;
+    }
+
+    .contenedor2 {
+        font-size: 10px;
+    }
+
+
+    .mostrador .fila .item .descripcion {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:599px) {
+
+    h1,
+    h2 {
+        font-size: 50px;
+    }
+
+    .carrucel {
+        width: 250px;
+    }
+
+    p {
+        font-size: 10px;
+
+    }
+
+    .img_con {
+        width: 150px;
+
+    }
+
+    .img-con2 {
+        width: 150px;
+    }
+
+    .red-social a {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .miyagi {
+        width: 100px;
+        height: 100px;
+    }
+
+    h6 {
+        font-size: 10px;
+    }
+
+    .txt-contenedor2 {
+        padding-right: 25px;
+    }
+
+    .contenedor2 {
+        font-size: 10px;
+    }
+
+
+    .mostrador .fila .item .descripcion {
+        font-size: 7px;
+    }
+
+    .pie-pagina {
+        background-color: rgb(115, 114, 114);
+
+    }
 }

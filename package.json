@@ -1,0 +1,23 @@
+{
+  "name": "miyagi_sushi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+"build-sass":"node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+
+  
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monteslozada/MIYAGI_SUSHI.git"
+  },
+
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monteslozada/MIYAGI_SUSHI/issues"
+  },
+  "homepage": "https://github.com/monteslozada/MIYAGI_SUSHI#readme"
+}
