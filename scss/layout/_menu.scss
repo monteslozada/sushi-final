@@ -1,0 +1,72 @@
+
+
+.fondo_menu {
+    background-image: url(../imagenes/galaxia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.menu {
+    margin: 10px;
+    box-shadow: 0 4px 8px lightblue, 0 6px 20px rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+.contenido {
+    max-width: 1100px;
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+}
+
+.mostrador {
+    width: 100%;
+    transition: .5s ease;
+
+}
+
+.mostrador .fila {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+
+.mostrador .fila .item {
+    max-width: 250px;
+    padding: 20px;
+    height: 500px;
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+
+
+}
+
+.mostrador .fila .item:hover {
+    background-color: rgb(58, 61, 61);
+}
+
+.mostrador .fila .item img {
+    width: 100%;
+    margin: 20px 0;
+
+}
+
+.mostrador .fila .item .descripcion {
+    color: rgb(243, 240, 240);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.mostrador .fila .item .precio {
+    color: rgb(245, 241, 241);
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -243,6 +243,12 @@ p {
     font-size: 20px;
 }
 
+/*
+.item{
+    width: 250px;
+    height: 250px;
+}*/
+
 
 
 @media only screen and (min-width:900px) and (max-width:1050px) {
@@ -285,7 +291,7 @@ p {
 
     h1,
     h2 {
-        font-size: 90px;
+        font-size: 100px;
     }
 
     .carrucel {
@@ -293,7 +299,7 @@ p {
     }
 
     p {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .img_con {
@@ -305,15 +311,15 @@ p {
     }
 
     .miyagi {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
     }
 
     .red-social a {
 
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
         margin-right: 40px;
         margin-top: 40px;
         margin-left: 30px;
@@ -329,11 +335,24 @@ p {
 
 
     .mostrador .fila .item .descripcion {
-        font-size: 10px;
+        font-size: 20px;
+
     }
+    
+.mostrador .fila {
+    display: block;
+    
+justify-content:center;  
+width: 100%;
+margin: 200px;
+  
+
 }
 
-@media only screen and (min-width:320px) and (max-width:599px) {
+}
+
+
+@media only screen and  (max-width:599px) {
 
     h1,
     h2 {
@@ -368,8 +387,8 @@ p {
     }
 
     .miyagi {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
 
     h6 {
@@ -386,11 +405,19 @@ p {
 
 
     .mostrador .fila .item .descripcion {
-        font-size: 7px;
-    }
+        font-size: 15px;
 
-    .pie-pagina {
-        background-color: rgb(125, 119, 119);
 
     }
+    
+.mostrador .fila {
+    display: block;
+justify-content: center;  
+width: 100%;
+margin: 80px;
+}
+
+
+
+
 }
