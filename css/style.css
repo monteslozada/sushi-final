@@ -189,7 +189,7 @@ textarea {
 #boton:hover {
   cursor: pointer; }
 
-@media only screen and (min-width: 800px) and (max-width: 1050px) {
+@media only screen and (min-width: 900px) and (max-width: 1050px) {
   h1 {
     font-size: 130px; }
   h2 {
@@ -209,7 +209,41 @@ textarea {
   .contenedor2 {
     font-size: 10px; } }
 
-@media only screen and (min-width: 320px) and (max-width: 799px) {
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  h1,
+  h2 {
+    font-size: 100px; }
+  .carrucel {
+    width: 400px; }
+  p {
+    font-size: 30px; }
+  .img_con {
+    width: 250px; }
+  .img-con2 {
+    width: 250px; }
+  .miyagi {
+    width: 250px;
+    height: 250px; }
+  .red-social a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-left: 30px; }
+  h6 {
+    font-size: 25px; }
+  .contenedor2 {
+    font-size: 10px; }
+  .mostrador .fila .item .descripcion {
+    font-size: 20px; }
+  .mostrador .fila {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    margin: 350px; } }
+
+@media only screen and (min-width: 320px) and (max-width: 599px) {
   h1,
   h2 {
     font-size: 50px; }
@@ -246,8 +280,8 @@ textarea {
     justify-content: center; }
   .fila {
     justify-content: center;
-    padding-left: 20%;
-    margin: -15; } }
+    padding-left: 25%;
+    margin: -15px; } }
 
 @media (max-width: 480px) {
   form {
