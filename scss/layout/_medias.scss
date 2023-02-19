@@ -102,18 +102,18 @@
 
     .mostrador .fila {
         display: block;
-        width: 500px;
-        margin-left: 200px;
-        
+        width: auto;
+        margin: 40px auto;
 
 
     }
 
     .fila {
         justify-content: center;
-       
-        margin-bottom: 40px;}
-    
+        padding-left: 25%;
+
+    }
+
 
 }
 
