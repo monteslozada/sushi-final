@@ -115,47 +115,20 @@ p {
   background-attachment: fixed; }
 
 .menu {
-  margin: 10px;
-  box-shadow: 0 4px 8px lightblue, 0 6px 20px rgba(0, 0, 0, 0.19); }
+  margin-top: 3%;
+  padding: 3%;
+  pad: 15px; }
 
-.contenido {
-  max-width: 1100px;
-  width: 100%;
-  margin: 40px auto;
-  display: flex; }
+.precio:hover {
+  background-color: #383737;
+  transition: .3s; }
 
-.mostrador {
-  width: 100%;
-  transition: .5s ease; }
-  .mostrador .fila {
-    display: flex;
-    justify-content: space-between; }
-  .mostrador .item {
-    max-width: 250px;
-    padding: 20px;
-    height: 500px;
-    text-align: center;
-    margin: 0 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: .3s; }
+.precio {
+  font-size: 80px;
+  color: black; }
 
-.mostrador .fila .item:hover {
-  background-color: #363a3a; }
-
-.mostrador .fila .item img {
-  width: 100%;
-  margin: 20px 0; }
-
-.mostrador .fila .item .descripcion {
-  color: white;
-  font-weight: bold;
-  font-size: 18px; }
-
-.mostrador .fila .item .precio {
-  color: white;
-  font-weight: bold;
-  font-size: 30px; }
+.card-text {
+  color: black; }
 
 .formulario {
   color: white;
