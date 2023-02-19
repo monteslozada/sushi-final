@@ -242,9 +242,7 @@ textarea {
   .mostrador {
     justify-content: center; }
   .mostrador .fila {
-    display: block;
-    width: auto;
-    margin: 40px auto; }
+    display: block; }
   .fila {
     justify-content: center;
     padding-left: 25%; } }
