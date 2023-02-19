@@ -129,7 +129,6 @@ p {
   transition: .5s ease; }
   .mostrador .fila {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 40px; }
     .mostrador .fila .item {
       max-width: 250px;
@@ -190,11 +189,7 @@ textarea {
 #boton:hover {
   cursor: pointer; }
 
-@media (max-width: 480px) {
-  form {
-    width: 100%; } }
-
-@media only screen and (min-width: 900px) and (max-width: 1050px) {
+@media only screen and (min-width: 800px) and (max-width: 1050px) {
   h1 {
     font-size: 130px; }
   h2 {
@@ -214,41 +209,7 @@ textarea {
   .contenedor2 {
     font-size: 10px; } }
 
-@media only screen and (min-width: 600px) and (max-width: 899px) {
-  h1,
-  h2 {
-    font-size: 90px; }
-  .carrucel {
-    width: 400px; }
-  p {
-    font-size: 20px; }
-  .img_con {
-    width: 250px; }
-  .img-con2 {
-    width: 250px; }
-  .miyagi {
-    width: 200px;
-    height: 200px; }
-  .red-social a {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    margin-right: 40px;
-    margin-top: 40px;
-    margin-left: 30px; }
-  h6 {
-    font-size: 25px; }
-  .contenedor2 {
-    font-size: 10px; }
-  .mostrador .fila .item .descripcion {
-    font-size: 50px; }
-  .mostrador .fila {
-    display: block;
-    justify-content: center;
-    width: 100%;
-    margin: 150%; } }
-
-@media only screen and (min-width: 320px) and (max-width: 599px) {
+@media only screen and (min-width: 320px) and (max-width: 799px) {
   h1,
   h2 {
     font-size: 50px; }
@@ -277,9 +238,17 @@ textarea {
   .contenedor2 {
     font-size: 10px; }
   .mostrador .fila .item .descripcion {
-    font-size: 10px; }
+    font-size: 15px; }
+  .mostrador {
+    justify-content: center; }
   .mostrador .fila {
     display: block;
+    width: 500px;
+    margin-left: 200px; }
+  .fila {
     justify-content: center;
-    width: 100%;
-    margin: 80px; } }
+    margin-bottom: 40px; } }
+
+@media (max-width: 480px) {
+  form {
+    width: 100%; } }

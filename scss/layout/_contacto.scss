@@ -1,7 +1,7 @@
 
 
 .formulario {
-    color: white;
+    color: $color-p;
     font-size: 20px;
 
 
@@ -10,7 +10,7 @@
 form{
     width: 450px;
     margin: auto;
-   background: black;
+    background: black;
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;
@@ -33,16 +33,10 @@ textarea{
 
 #boton{
     background: #525353;
-    color: white;
+    color:$color-p;
     padding: 20px;
 
 }
 #boton:hover {
     cursor: pointer;
-}
-
-@media (max-width: 480px){
-    form{
-        width: 100%;
-    }
 }
