@@ -8,11 +8,9 @@
 
 
 .menu {
-    margin-top: 3%;
-    padding: 3%;
-    pad: 15px;
-    
-    
+    @include margen(5%, 5%)
+
+
 }
 
 .precio:hover {
@@ -20,13 +18,13 @@
     transition: .3s;
 }
 
-.precio{
-    font-size: 80px;
+.precio {
+    font-size: 50px;
     color: black;
-   
-  
+
+
 }
 
-.card-text{
+.card-text {
     color: black;
 }

@@ -77,28 +77,16 @@
     }
 
     .contenedor2 {
-        font-size: 10px;
+        font-size: 15px;
     }
 
-
-    .mostrador .fila .item .descripcion {
-        font-size: 10px;
-
-    }
-    
-.mostrador .fila {
-    display:flex;
-    
-justify-content:center;  
-width: 500px;
-margin: 50px;
 
 
 }
 
 
 
-}
+
 
 
 
@@ -158,32 +146,6 @@ margin: 50px;
         font-size: 10px;
     }
 
-
-    .mostrador .fila .item .descripcion {
-        font-size: 15px;
-
-    }
-
-.item{
-    justify-content: center;
-}
-
-    .mostrador .fila {
-    display: block; 
-    justify-content: center;   
-    }
-
-
-    .fila {
-        justify-content: center;
-        padding-left: 25%;
-        margin: -15px;
-
-    }
-    .mostrador{
-        height: 15%;
-
-    }
 
 }
 

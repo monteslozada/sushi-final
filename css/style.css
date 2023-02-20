@@ -115,16 +115,15 @@ p {
   background-attachment: fixed; }
 
 .menu {
-  margin-top: 3%;
-  padding: 3%;
-  pad: 15px; }
+  margin-top: 5%;
+  padding: 5%; }
 
 .precio:hover {
   background-color: #383737;
   transition: .3s; }
 
 .precio {
-  font-size: 80px;
+  font-size: 50px;
   color: black; }
 
 .card-text {
@@ -207,14 +206,7 @@ textarea {
   h6 {
     font-size: 25px; }
   .contenedor2 {
-    font-size: 10px; }
-  .mostrador .fila .item .descripcion {
-    font-size: 10px; }
-  .mostrador .fila {
-    display: flex;
-    justify-content: center;
-    width: 500px;
-    margin: 50px; } }
+    font-size: 15px; } }
 
 @media only screen and (min-width: 320px) and (max-width: 599px) {
   h1,
@@ -243,20 +235,7 @@ textarea {
   .txt-contenedor2 {
     padding-right: 25px; }
   .contenedor2 {
-    font-size: 10px; }
-  .mostrador .fila .item .descripcion {
-    font-size: 15px; }
-  .item {
-    justify-content: center; }
-  .mostrador .fila {
-    display: block;
-    justify-content: center; }
-  .fila {
-    justify-content: center;
-    padding-left: 25%;
-    margin: -15px; }
-  .mostrador {
-    height: 15%; } }
+    font-size: 10px; } }
 
 @media (max-width: 480px) {
   form {
